@@ -1,0 +1,18 @@
+---
+title: "README"
+author: "RLionheart"
+date: "1/4/2021"
+output: html_document
+---
+
+This repository was the final repo before I moved to the streamlined Targeted Pipeline. From looking at the project I don't think there's anything to be gained by trying to update this repo, I would just move it to the Targeted Pipeline. I think it will go through it quite easily. Some things to note:
+
+1. There was an accidental "a" added to one of the pooled runs. I just manually edited it so it works with the rest of the code (see below).
+Wei.transect.SampKey_all[Wei.transect.SampKey_all == "180821_Poo_MesoScopeQC_1a"] <- "180821_Poo_MesoScopeQC_1"
+
+2. Whitespace was an issue in the standards sheet at the time, I think this problem was resolved in the standards project so it shouldn't be a problem if you are using the updated pipeline. But just in case:
+trimws(Wei.Internal.Standards$Compound.Name, which = c("both", "left", "right"), whitespace = "[ \t\r\n]")
+
+3. Guanosine Monophosphate 15N5 was a troublesome internal standard. I ended up throwing that one out in the BMIS comparison step.
+
+4. The "Get_mols.R" script is the old name for the quantify script. I think the quantify script in the updated pipeline is going to be much easier to use.
