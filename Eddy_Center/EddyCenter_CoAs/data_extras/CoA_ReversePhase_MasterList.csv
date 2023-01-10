@@ -1,0 +1,19 @@
+Group,Compound Name ,Parent ,Daughter,Retention Time,Parent Charge,Daughter Charge,Notes,Function,Cone Voltage,Collision Energy,Quan Trace,2nd trace
+Co-enzyme A,Acetoacetyl CoA,850.3228,766.3569,5.21,-1,-1,,,,,yes,
+Co-enzyme A,Acetoacetyl CoA,850.3228,408.178,5.21,-1,-1,,,,,no,yes
+Co-enzyme A,Acetyl CoA,808.149,408.0672,5.41,-1,-1,,,,,yes,
+Co-enzyme A,Acetyl CoA,808.149,461.1161,5.41,-1,-1,,,,,no,yes
+Co-enzyme A,Crotonyl CoA,834.277,408.067,8.23,-1,-1,,,,,yes,
+Co-enzyme A,Crotonyl CoA,834.277,158.9767,8.23,-1,-1,,,,,no,yes
+Co-enzyme A,Hydroxybutyryl CoA,852.1043,158.902,5.81,-1,-1,,,,,yes,
+Co-enzyme A,Hydroxybutyryl CoA,852.1043,425.8855,5.81,-1,-1,,,,,no,yes
+Co-enzyme A,Malonyl CoA,852.1053,408.0135,2.79,-1,-1,,,,,no,yes
+Co-enzyme A,Malonyl CoA,852.1053,808.0725,2.79,-1,-1,,,,,yes,
+Co-enzyme A,Methyl Malonyl CoA,866.1109,407.964,3.81,-1,-1,,,,,no,yes
+Co-enzyme A,Methyl Malonyl CoA,866.1109,822.1345,3.81,-1,-1,,,,,yes,
+Co-enzyme A,Propionyl CoA,822.277,408.113,7.13,-1,-1,,,,,yes,
+Co-enzyme A,Propionyl CoA,822.277,475.1986,7.13,-1,-1,,,,,no,yes
+Co-enzyme A,Succinyl CoA,866.1105,158.9068,3.51,-1,-1,,,,,yes,
+Co-enzyme A,Succinyl CoA,866.1105,339.0864,3.51,-1,-1,,,,,no,yes
+Internal Std,13C Acetyl CoA,810.2043,408.0569,5.41,-1,-1,,,,,yes,
+Internal Std,13C Acetyl CoA,810.2043,463.1176,5.41,-1,-1,,,,,no,yes
